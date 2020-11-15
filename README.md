@@ -38,13 +38,3 @@ Si el mensaje se envía correctamente, se mostrará un mensaje como el siguiente
 
 - **Vaciar:** limpiará el contenido de todos los campos.
 - **Cerrar**: cerrará la ventana y terminará el programa
-
-Existe una cuenta de correo de prueba en GMail creada exclusivamente para el módulo DAD. Puedes utilizarla para hacer las pruebas:
-
-```
-Servidor SMTP: smtp.gmail.com:465
-SSL: Sí
-Email/Usuario: dad.iesdpm@gmail.com
-Contraseña: Minikit0$
-```
-
