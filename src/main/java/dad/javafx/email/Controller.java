@@ -16,9 +16,7 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.scene.image.Image;
 import javafx.scene.layout.GridPane;
-import javafx.stage.Stage;
 
 /**
  * @author Ayoze Amaro
@@ -48,6 +46,8 @@ public class Controller implements Initializable {
 		loader.setController(this);
 		loader.load();
 	}
+	
+	public void initialize(URL location, ResourceBundle resources) { }
 	
 	@FXML
 	void onEnviarButtonAction (ActionEvent e) { 
@@ -96,8 +96,6 @@ public class Controller implements Initializable {
 	
 	@FXML
 	void onCerrarButtonAction (ActionEvent e) { Platform.exit(); }
-	
-	public void initialize(URL location, ResourceBundle resources) { }
 	
 	public GridPane getView() {
 		return this.view;
